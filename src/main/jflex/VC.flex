@@ -71,7 +71,7 @@ SingleCharacter = [^\r\n\'\\]
 <YYINITIAL> {
 
   // keywords /
-  "int"                          {return symbol(INT); }
+  "int"                          { return symbol(INT); }
   "float"                        { return symbol(FLOAT); }
   "void"                         { return symbol(VOID); }
   "boolean"                      { return symbol(BOOLEAN); }
